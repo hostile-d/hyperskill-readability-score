@@ -30,6 +30,9 @@ subprojects {
 
     dependencies {
         testImplementation 'com.github.hyperskill:hs-test:release-SNAPSHOT'
+
+        compileOnly 'org.projectlombok:lombok:1.18.24'
+        annotationProcessor 'org.projectlombok:lombok:1.18.24'
     }
 
     configurations.all {
