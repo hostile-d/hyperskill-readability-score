@@ -9,4 +9,6 @@ public class Text {
     private Double words;
     private Double sentences;
     private Double characters;
+    private Double syllables;
+    private Double polysyllables;
 }
